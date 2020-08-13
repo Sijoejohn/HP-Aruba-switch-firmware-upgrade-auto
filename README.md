@@ -8,14 +8,23 @@ If your switch is running on secondary flash (which is active flash) then the sc
 # Pre-requisites
 
 Windows PowerShell version 5.0 or above
+
 Posh-SSH module should be installed on windows PowerShell
+
 Install and configure a TFTP Server
+
 SSH should be enabled on all network devices
-All devices should be configured with same login credentials (Read only)
+
+All devices should be configured with same login credentials
+
 After logging in, the devices should be in "Enable" (Privileged #) mode
+
 Network devices firmware should be in-line with industry standards
+
 Add IP address of devices into hp.txt, Cisco.txt & fortigate.txt
+
 Not recommended to run on any servers installed with SCCM, WDS or any other tftp services.
+
 Login credential need to be encrypted and saved in a text file pass.txt. Copy the pass.txt file into the script “content” folder
 How to Convert
 
